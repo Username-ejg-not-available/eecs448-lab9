@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Exercise 3</title>
+        <link rel='stylesheet' type='text/css' href='style.css' />
+    </head>
+    <body>
+        <form action='customerBackend.php' method='post'>
+            <fieldset id='userid'>
+                <legend><span>User Info</span></legend>
+                <label>
+                    Name:
+                    <input type='email' name='email' placeholder="e@mail.com" required />
+                </label>
+                <label>
+                    Password: <input type='password' name='password' required />
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend><span>Shipping:</span></legend>
+                <label>
+                    <input type='radio' name='ship' value='Free 7 day' required />Free 7 day
+                    <input type='radio' name='ship' value='$50.00 over night' />$50.00 over night
+                    <input type='radio' name='ship' value='$5.00 three day' />$5.00 three day
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend><span>Products:</span></legend>
+                <label>
+                    <input type='number' name='hap' min='0' value='0' required /> Happiness ($60,000 each)
+                </label>
+                <label>
+                    <input type='number' name='ans' min='0' value='0' required /> Answer to your homework ($4.00 each)
+                </label>
+                <label>
+                    <input type='number' name='win' min='0' value='0' required /> Winning lottery ticket (not a scam) ($100.00 each)
+                </label>
+            </fieldset>
+            <fieldset id='buttonfield'>
+                <input type='submit' class='buttonn' />
+                <input type='reset' class='buttonn' />
+            </fieldset>
+        </form>
+        <script src='formChecker.js'></script>
+    </body>
+</html>

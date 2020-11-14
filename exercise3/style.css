@@ -1,0 +1,78 @@
+form {
+    background: rgb(212,22,10);
+    padding: 10px;
+    margin: 0 50px 10px 50px;
+    border-radius:10px;
+}
+
+input {
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 5px;
+    position: relative;
+    padding: 2em 1em .5em 1em;
+    background: #fcaeae;
+    z-index: 0;
+}
+
+legend span {
+    position: absolute;
+    left: 0;
+    font-size: 1.25em;
+    margin-top: .5em;
+    margin-left: .5 em;
+}
+
+label {
+    display: block;
+    position: relative;
+    margin: 12px 0;
+}
+
+#userid input {
+    position: absolute;
+    left: 100px;
+}
+
+input:focus {
+    background: rgb(237,237,237);
+}
+
+#buttonfield {
+    padding: .0em 0 0 0;
+    text-align: center;
+}
+
+.buttonn {
+    border: none;
+    background: white;
+    font-size: 1.25em;
+    cursor: pointer;
+    margin: 1em 0;
+}
+/*php table*/
+table {
+    width: 90%;
+    margin: 0 auto 1em auto;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    padding: 0.25em;
+}
+
+th {
+    padding .25em;
+    background: rgb(255,231,55);
+}
+
+#welcome {
+    border: 5px solid rgb(212,22,10);
+    border-radius: 1em;
+    text-align: center;
+}
